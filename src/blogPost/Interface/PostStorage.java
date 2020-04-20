@@ -1,13 +1,14 @@
 package blogPost.Interface;
 
-import blogPost.Post;
-import blogPost.exception.PostNotFoundException;
+import blogPost.exception.ModelNotFoundException;
+import model.Post;
+
 
 public interface PostStorage {
 
     void add(Post post);
 
-    Post getPostByTitle(String title) throws PostNotFoundException;
+    Post getPostByTitle(String title) throws ModelNotFoundException;
 
     void searchPostsByKeyword(String keyword);
 
