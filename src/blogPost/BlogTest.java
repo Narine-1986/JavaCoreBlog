@@ -4,8 +4,8 @@ import blogPost.Interface.Commands;
 import blogPost.exception.ModelNotFoundException;
 import blogPost.models.Post;
 import blogPost.models.User;
-import storageImpl.PostStorageImpl;
-import storageImpl.UserStorageImpl;
+import blogStorageImpl.PostStorageImpl;
+import blogStorageImpl.UserStorageImpl;
 
 import java.util.Date;
 import java.util.Scanner;

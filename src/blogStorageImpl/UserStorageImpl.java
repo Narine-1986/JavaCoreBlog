@@ -1,4 +1,4 @@
-package storageImpl;
+package blogStorageImpl;
 
 import blogPost.Interface.UserStorage;
 import blogPost.exception.ModelNotFoundException;
