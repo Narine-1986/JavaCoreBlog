@@ -1,8 +1,7 @@
 package blogPost.Interface;
 
 import blogPost.exception.ModelNotFoundException;
-import model.Post;
-
+import blogPost.models.Post;
 
 public interface PostStorage {
 

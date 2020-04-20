@@ -2,8 +2,7 @@ package storageImpl;
 
 import blogPost.Interface.PostStorage;
 import blogPost.exception.ModelNotFoundException;
-import blogPost.exception.ModelNotFoundException;
-import model.Post;
+import blogPost.models.Post;
 
 public class PostStorageImpl implements PostStorage {
 

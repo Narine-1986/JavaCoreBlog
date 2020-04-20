@@ -2,8 +2,8 @@ package blogPost;
 
 import blogPost.Interface.Commands;
 import blogPost.exception.ModelNotFoundException;
-import model.Post;
-import model.User;
+import blogPost.models.Post;
+import blogPost.models.User;
 import storageImpl.PostStorageImpl;
 import storageImpl.UserStorageImpl;
 

@@ -3,7 +3,7 @@ package storageImpl;
 import blogPost.Interface.UserStorage;
 import blogPost.exception.ModelNotFoundException;
 
-import model.User;
+import blogPost.models.User;
 
 public class UserStorageImpl implements UserStorage {
     private User[] users = new User[15];

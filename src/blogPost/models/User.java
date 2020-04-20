@@ -1,4 +1,4 @@
-package model;
+package blogPost.models;
 
 public class User {
     private String name;
